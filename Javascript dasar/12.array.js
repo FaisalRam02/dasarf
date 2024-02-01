@@ -1,0 +1,1 @@
+let hewan = ['kucing', 'buaya', 'pepaya']
