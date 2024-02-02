@@ -14,13 +14,13 @@
     roda: 2
   };
 
-  // Menghapus properti 'roda'
+
   delete tubuh.roda;
 
-  // Menampilkan hasil setelah menghapus properti 'roda'
-  document.write("Properti 'roda' telah dihapus. Objek tubuh sekarang: <br>");
+ 
+  console.log("Properti 'roda' telah dihapus. Objek tubuh sekarang:");
   for (let prop in tubuh) {
-    document.write(prop + ": " + tubuh[prop] + "<br>");
+    console.log(prop + ": " + tubuh[prop]);
   }
 </script>
 
