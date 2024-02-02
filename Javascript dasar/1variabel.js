@@ -9,7 +9,8 @@
 
 <script>
   // Deklarasi variabel animal menggunakan let
-  let animal;
+  let animal = el gato;
+console.log(animal)
 </script>
 
 </body>
